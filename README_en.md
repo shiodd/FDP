@@ -1,22 +1,26 @@
 # FDP - File Download Proxy
 
+[English](#english) | [中文](./README.md)
+
+## English
+
 A simple file download proxy service that supports downloading files by URL concatenation.
 
-## Features
+### Features
 
 - Support HTTP/HTTPS protocol downloads
 - Support range requests (resume downloads)
 - Built-in SSRF protection
 
-## Usage Example
+### Usage Example
 
 ```
 http://localhost:9517/https://example.com/image.jpg
 ```
 
-## Quick Start
+### Quick Start
 
-### Local Development (Requires Go)
+#### Local Development (Requires Go)
 
 ```bash
 go run main.go
@@ -24,7 +28,7 @@ go run main.go
 
 Default port is `9517`
 
-### Docker
+#### Docker
 
 ```bash
 docker run -d \
@@ -36,7 +40,7 @@ docker run -d \
 
 After starting, visit `http://localhost:9517` and you should see `success`.
 
-### Docker Build
+#### Docker Build
 
 ```bash
 docker build -t myapp:latest .
