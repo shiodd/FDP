@@ -1,8 +1,7 @@
-# FDP - 文件下载代理
+# FDP(File Download Proxy)
 
 [中文](#中文) | [English](./README_en.md)
 
-## 中文
 
 一个简单的文件下载代理服务，支持通过 URL 拼接下载文件。
 
