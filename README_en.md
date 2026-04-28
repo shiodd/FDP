@@ -46,6 +46,4 @@ After starting, visit `http://localhost:9517` and you should see `success`.
 docker build -t myapp:latest .
 ```
 
-## License
 
-MIT
