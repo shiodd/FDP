@@ -32,3 +32,7 @@ docker run -d \
 ```
 ---
 启动后，访问```http://localhost:9517```出现```success```即为成功。
+
+## Docker构建
+```docker build -t myapp:latest .```
+
