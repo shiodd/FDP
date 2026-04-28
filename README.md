@@ -46,6 +46,3 @@ docker run -d \
 docker build -t myapp:latest .
 ```
 
-## 许可证
-
-MIT
