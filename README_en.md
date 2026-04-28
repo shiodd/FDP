@@ -2,7 +2,6 @@
 
 [English](#english) | [中文](./README.md)
 
-## English
 
 A simple file download proxy service that supports downloading files by URL concatenation.
 
